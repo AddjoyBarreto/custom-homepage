@@ -37,14 +37,10 @@ function showtime(){
 
 	else if(a>=0 && a<12){
 		document.getElementById("saying").innerHTML = "Good Morning";
-		document.body.style.backgroundImage = "url('./img/pexels-photo-878151.jpeg')"; //./img/israel-sundseth-1688-unsplash.jpg
+		document.body.style.backgroundImage = "url('./img/pexels-photo-878151.jpeg')"; 
 		document.body.style.padding = "16px 0 0 0";
 	}
 
-	//import window.location.host;
-	//window.location.href.toString().split(window.location.host)[1];
-	//window.open('file:///C:/Users/Addjoy%20Barreto/Desktop/acme/new%20home%20page/home.html','_blank');
-	//window.open("file:///C:/Users/Addjoy%20Barreto/Desktop/acme/new%20home%20page/home.html");
 
 setInterval(showtime,1000);
 }
